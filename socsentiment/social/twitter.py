@@ -65,7 +65,7 @@ class SentimentAnalyzer(object):
 	def getNeutralPercent(self):
 		return roundStr(self.neutral_count / self.volume * 100)
 
-class TwitterClient(object):
+class Client(object):
 	def __init__(self, key, secret, token, tokenSecret):
 		self.analyze = SentimentAnalyzer()
 		try:

@@ -1,0 +1,6 @@
+setup.cfg
+socsentiment/__init__.py
+socsentiment.egg-info/PKG-INFO
+socsentiment.egg-info/SOURCES.txt
+socsentiment.egg-info/dependency_links.txt
+socsentiment.egg-info/top_level.txt

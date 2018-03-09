@@ -63,7 +63,7 @@ class SentimentAnalyzer(object):
 	def getNeutralPercent(self):
 		return roundStr(self.neutral_count / self.volume * 100)
 
-class RedditClient(object):
+class Client(object):
 	def __init__(self, redditUser):
 		self.user = redditUser
 		self.analyze = SentimentAnalyzer()
