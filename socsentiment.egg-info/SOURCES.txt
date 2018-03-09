@@ -1,5 +1,7 @@
 setup.cfg
 socsentiment/__init__.py
+socsentiment/reddit.py
+socsentiment/twitter.py
 socsentiment.egg-info/PKG-INFO
 socsentiment.egg-info/SOURCES.txt
 socsentiment.egg-info/dependency_links.txt
